@@ -78,3 +78,41 @@ h1 {
     box-shadow: -1px 5px 8px black;
 }
 
+/*  ---------
+    Section Carte 
+    ---------
+*/
+
+.carte-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.carte {
+    width: 350px;
+    margin: 0 1rem 2rem;
+    box-shadow: 0 6px 12px black;
+}
+
+.carte-image {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.carte-info {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+.carte-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.carte-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}

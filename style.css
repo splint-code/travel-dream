@@ -31,8 +31,8 @@ a {
 header {
     display: flex;
     justify-content: space-around;
-    padding: 1rem;
-    margin-bottom: 2rem;
+    padding: 3rem 0;
+    /* margin-bottom: 2rem; */
 }
 
 ul {
@@ -42,5 +42,39 @@ ul {
 li {
     margin-right: 1rem;
     text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+/*  ---------
+    BANNIERE 
+    ---------
+*/
+
+.banniere-image {
+    height: 698px;
+    background-image: url(image/banniere.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    color: #e44e18;
+    text-shadow: black -1px 4px 3px;
+}
+
+.btn-banniere {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #e44e18;
+    box-shadow: -1px 5px 8px black;
 }
 

@@ -116,3 +116,39 @@ h1 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+
+.choix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e44e18;
+}
+
+.choix-detail {
+    width: 400px;
+    margin-right: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.choix-detail h2 {
+    margin-bottom: 1rem;
+}
+
+/*  ---------
+    Footer 
+    ---------
+*/
+
+footer {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
